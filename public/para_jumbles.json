@@ -1,0 +1,772 @@
+[
+  {
+    "id": 81,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the following sentences in the correct logical sequence:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "However, the most consumed tea in the world is Indian tea."
+      },
+      {
+        "label": "B",
+        "text": "Tea was originated in China by its ruler, Shennong."
+      },
+      {
+        "label": "C",
+        "text": "India also has the credit of being the world's largest producer."
+      },
+      {
+        "label": "D",
+        "text": "This is because of the tropical and sub-tropical climate present here."
+      }
+    ],
+    "options": [
+      "BACD",
+      "CBAD",
+      "DCAB",
+      "ABCD"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 82,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the sentences following the fixed opening part 'R':",
+    "sentences": [
+      {
+        "label": "R (Fixed)",
+        "text": "Men usually make more decisions"
+      },
+      {
+        "label": "A",
+        "text": "and certainly the most important ones"
+      },
+      {
+        "label": "B",
+        "text": "earning a livelihood in most parts of the world"
+      },
+      {
+        "label": "C",
+        "text": "since men play a bigger role in"
+      },
+      {
+        "label": "D",
+        "text": "they have a major say in economic matters"
+      }
+    ],
+    "options": [
+      "ACDB",
+      "ACBD",
+      "DCAB",
+      "BADC"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 83,
+    "category": "Para Jumbles",
+    "prompt": "Rearrange the parts into a coherent sentence:",
+    "sentences": [
+      {
+        "label": "P",
+        "text": "the south pole of the Moon"
+      },
+      {
+        "label": "Q",
+        "text": "and where no man has ever been before"
+      },
+      {
+        "label": "R",
+        "text": "the Artemis mission will explore"
+      },
+      {
+        "label": "S",
+        "text": "where ice has been confirmed to exist within craters"
+      }
+    ],
+    "options": [
+      "S, R, Q, P",
+      "Q, P, S, R",
+      "P, R, Q, S",
+      "R, P, S, Q"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 84,
+    "category": "Para Jumbles",
+    "prompt": "Rearrange the parts into a coherent sentence:",
+    "sentences": [
+      {
+        "label": "P",
+        "text": "showcasing objects of historic, scientific and cultural interest"
+      },
+      {
+        "label": "Q",
+        "text": "by taking us back in time"
+      },
+      {
+        "label": "R",
+        "text": "museums are always"
+      },
+      {
+        "label": "S",
+        "text": "treasure troves of information"
+      }
+    ],
+    "options": [
+      "R, S, P, Q",
+      "Q, S, P, R",
+      "P, Q, S, R",
+      "S, P, R, Q"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 85,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the parts to form a meaningful sentence:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "lost all his teeth"
+      },
+      {
+        "label": "B",
+        "text": "cannot eat hard food"
+      },
+      {
+        "label": "C",
+        "text": "he has"
+      },
+      {
+        "label": "D",
+        "text": "consequently, he"
+      }
+    ],
+    "options": [
+      "DACB",
+      "ADBC",
+      "BDAC",
+      "CADB"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 86,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the following sentences in a logical paragraph:",
+    "sentences": [
+      {
+        "label": "P",
+        "text": "Applied arts require an object to be functional, as well as beautiful."
+      },
+      {
+        "label": "Q",
+        "text": "They recognised that their work belonged to the higher social classes who had the wealth to purchase art and the leisure time to enjoy it."
+      },
+      {
+        "label": "R",
+        "text": "Fine art is categorised as something which only has an aesthetic or conceptual function."
+      },
+      {
+        "label": "S",
+        "text": "There are a number of different categories of objects and processes under the umbrella term of art which need to be explored."
+      },
+      {
+        "label": "T",
+        "text": "In the twentieth century, artists began to challenge the established notion of art."
+      },
+      {
+        "label": "U",
+        "text": "Art is typically divided into two areas: fine art (such as painting, sculpture, music and poetry), and the applied arts (such as pottery, weaving, metal working, furniture making and calligraphy)."
+      }
+    ],
+    "options": [
+      "RPSTUQ",
+      "SURPTQ",
+      "SUPQRT",
+      "SRPUTQ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 87,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the sentences in the correct order to form a coherent paragraph:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "Telugu movie industry is proud of many great producers, directors, artists and musicians."
+      },
+      {
+        "label": "B",
+        "text": "Savithri was one such great artist who influenced Telegu movie industry single-handedly for many years."
+      },
+      {
+        "label": "C",
+        "text": "Her initial interest was in dance so she learnt dance before entering movies."
+      },
+      {
+        "label": "D",
+        "text": "She is still worshipped for her matchless expressions and dialogue delivery."
+      }
+    ],
+    "options": [
+      "BCDA",
+      "CDAB",
+      "ABCD",
+      "ACDB"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 88,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the following sentences in logical sequence:",
+    "sentences": [
+      {
+        "label": "a",
+        "text": "Researchers from five medical centres around the country found that insomniacs were also significantly likely to have poor health, such as chest pain, arthritis, and depression, as well as difficulties doing daily duties."
+      },
+      {
+        "label": "b",
+        "text": "Even temporary sleep loss can disrupt the body's capacity to break down carbohydrates, interfere with hormones, and aggravate diabetes and high blood pressure."
+      },
+      {
+        "label": "c",
+        "text": "So, make time for whatever helps you sleep, whether it's exercise, massages, yoga, meditation, or a fragrance bath."
+      },
+      {
+        "label": "d",
+        "text": "Sleep deprivation has frightening consequences for many biological processes."
+      }
+    ],
+    "options": [
+      "d, a, c, b",
+      "d, a, b, c",
+      "d, c, a, b",
+      "d, c, b, a"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 89,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the sentences to form a meaningful passage:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "The Booker is awarded on 17 October, which also happens to be Garner's 88th birthday, a coincidence that itself feels a little magical."
+      },
+      {
+        "label": "B",
+        "text": "'If the rocks, caves, lakes, fens, bogs and dens of the land of Britain had a voice, it would sound like Alan Garner telling a story.'"
+      },
+      {
+        "label": "C",
+        "text": "This year Alan Garner became the oldest author ever to be shortlisted for the Booker Prize for his small but mighty novel Treacle Walker."
+      },
+      {
+        "label": "D",
+        "text": "Treacle Walker, a dreamlike fable of a convalescent boy named Joseph, a rag-and-bone man and a bog-dwelling spirit is at once a characteristically cryptic tale of a child threatened by dark forces, a meditation on time and mortality and a vivid example of folk horror."
+      }
+    ],
+    "options": [
+      "B, D, A, C",
+      "D, A, C, B",
+      "A, D, B, C",
+      "C, A, D, B"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 90,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the following sentences in the correct order:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "I must tell you that I am referring to the tax year which began on 1 April"
+      },
+      {
+        "label": "B",
+        "text": "Let me be the first to wish you a very happy New Year"
+      },
+      {
+        "label": "C",
+        "text": "In case none of your friends or family did so"
+      },
+      {
+        "label": "D",
+        "text": "Now, before you ask whether the spring sunshine has gone to my head"
+      }
+    ],
+    "options": [
+      "BACD",
+      "ADCB",
+      "DBAC",
+      "CBDA"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 91,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the sentences to form a coherent personal narrative:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "Before we could react or comprehend, the waters had wiped out all the shanties on the beach."
+      },
+      {
+        "label": "B",
+        "text": "The word 'tsunami' sends shivers down my spine."
+      },
+      {
+        "label": "C",
+        "text": "Suddenly, on a bright afternoon I noticed a lot of waves grow bigger and splash quickly."
+      },
+      {
+        "label": "D",
+        "text": "I still remember my vacation in Thailand the day the tsunami struck."
+      }
+    ],
+    "options": [
+      "C, D, A, B",
+      "B, D, C, A",
+      "A, B, C, D",
+      "D, A, B, C"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 92,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the parts to complete the sentence logically:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "Booming with private developers"
+      },
+      {
+        "label": "B",
+        "text": "And it is changing the landscape of the urban and semi-urban habitat"
+      },
+      {
+        "label": "C",
+        "text": "Making the Indian elevator industry the second highest market in the world"
+      },
+      {
+        "label": "D",
+        "text": "India's real estate business is"
+      }
+    ],
+    "options": [
+      "DBAC",
+      "DABC",
+      "ABCD",
+      "BACD"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 93,
+    "category": "Para Jumbles",
+    "prompt": "Rearrange the parts into a grammatically correct sentence:",
+    "sentences": [
+      {
+        "label": "P",
+        "text": "and innovative solutions"
+      },
+      {
+        "label": "Q",
+        "text": "creativity is the driving force"
+      },
+      {
+        "label": "O",
+        "text": "behind new ideas"
+      },
+      {
+        "label": "R",
+        "text": "for progress and change"
+      }
+    ],
+    "options": [
+      "QROP",
+      "ROQP",
+      "ORQP",
+      "PQRO"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 94,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the following sentences in logical order:",
+    "sentences": [
+      {
+        "label": "a",
+        "text": "Freedom of thought and expression are fundamental human rights."
+      },
+      {
+        "label": "b",
+        "text": "There are two important human rights."
+      },
+      {
+        "label": "c",
+        "text": "Through good deeds, one can gain dignity."
+      },
+      {
+        "label": "d",
+        "text": "Everyone has the inherent right to be treated with dignity and courtesy at all times."
+      }
+    ],
+    "options": [
+      "bcad",
+      "bcda",
+      "acdb",
+      "dcba"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 95,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the sentences in logical sequence:",
+    "sentences": [
+      {
+        "label": "a",
+        "text": "Peace of mind is commonly correlated with happiness, contentment, tranquility, contemplation, exercise and relaxation."
+      },
+      {
+        "label": "b",
+        "text": "Thus, we all need peace of mind in our lives."
+      },
+      {
+        "label": "c",
+        "text": "Peace of mind, thus, give us all these attributes."
+      },
+      {
+        "label": "d",
+        "text": "One of the most important aspects of the mind is getting peace."
+      }
+    ],
+    "options": [
+      "bcda",
+      "dacb",
+      "bdca",
+      "dcba"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 96,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the lines of the poem in the correct sequence:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "They do taste kind of funny."
+      },
+      {
+        "label": "B",
+        "text": "I've done so all my life."
+      },
+      {
+        "label": "C",
+        "text": "But it keeps them on the knife."
+      },
+      {
+        "label": "D",
+        "text": "I always eat peas with honey."
+      }
+    ],
+    "options": [
+      "CBAD",
+      "ABDC",
+      "DBAC",
+      "BACD"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 97,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the sentences into a coherent thought:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "They think there are some bitter learning experiences"
+      },
+      {
+        "label": "B",
+        "text": "Which, over a period of time, guide them to take a good path"
+      },
+      {
+        "label": "C",
+        "text": "Many successful people believe that"
+      },
+      {
+        "label": "D",
+        "text": "There is no failure in anybody's life"
+      }
+    ],
+    "options": [
+      "CDAB",
+      "BDAC",
+      "CBDA",
+      "CBAD"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 98,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the following sentences in logical order:",
+    "sentences": [
+      {
+        "label": "a",
+        "text": "Often one fails to grab that chance."
+      },
+      {
+        "label": "b",
+        "text": "Life often gives us one single chance to flourish."
+      },
+      {
+        "label": "c",
+        "text": "Getting a chance to do good is not easy."
+      },
+      {
+        "label": "d",
+        "text": "If you get a chance, grab it and give your best."
+      }
+    ],
+    "options": [
+      "bcad",
+      "abcd",
+      "dabc",
+      "dcab"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 99,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the sentences in logical sequence:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "The King Cobra is the world's largest venomous snake."
+      },
+      {
+        "label": "B",
+        "text": "Even, the baby King Cobra is one-and-a-half foot long when born."
+      },
+      {
+        "label": "C",
+        "text": "It is mostly found in parts of Africa."
+      },
+      {
+        "label": "D",
+        "text": "The Cobra is the only snake that builds a nest."
+      }
+    ],
+    "options": [
+      "BDAC",
+      "ABCD",
+      "BACD",
+      "CBAD"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 100,
+    "category": "Para Jumbles",
+    "prompt": "The opening part 'Zombies are not real' is fixed. Rearrange the remaining parts:",
+    "sentences": [
+      {
+        "label": "Fixed",
+        "text": "Zombies are not real"
+      },
+      {
+        "label": "P",
+        "text": "sound effects"
+      },
+      {
+        "label": "Q",
+        "text": "make it believable"
+      },
+      {
+        "label": "R",
+        "text": "but special"
+      },
+      {
+        "label": "S",
+        "text": "and visuals"
+      }
+    ],
+    "options": [
+      "R, P, S, Q",
+      "P, R, S, Q",
+      "P, Q, R, S",
+      "P, Q, S, R"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 101,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the sentences logically with the fixed opening 'R':",
+    "sentences": [
+      {
+        "label": "R (Fixed)",
+        "text": "The knowledge so far"
+      },
+      {
+        "label": "A",
+        "text": "Available about the endocrine gland is very limited."
+      },
+      {
+        "label": "B",
+        "text": "Hormones are the body's chemical messengers."
+      },
+      {
+        "label": "C",
+        "text": "These are the glands that make all the hormones."
+      },
+      {
+        "label": "D",
+        "text": "They influence almost every cell, organ and function of our bodies."
+      }
+    ],
+    "options": [
+      "CABD",
+      "BCDA",
+      "ACBD",
+      "ABCD"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 102,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the following sentences in logical sequence:",
+    "sentences": [
+      {
+        "label": "a",
+        "text": "People come from divergent families, nations, faiths, political structures and ethnicities."
+      },
+      {
+        "label": "b",
+        "text": "Their beliefs constitute distinct moral frameworks."
+      },
+      {
+        "label": "c",
+        "text": "Respect for these ideals or for human dignity will define society's functioning."
+      },
+      {
+        "label": "d",
+        "text": "Respect and compromise are essential components of human dignity among the diverse members of any community."
+      }
+    ],
+    "options": [
+      "cbad",
+      "bcda",
+      "badc",
+      "dabc"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 103,
+    "category": "Para Jumbles",
+    "prompt": "Rearrange the parts into a grammatically complete sentence:",
+    "sentences": [
+      {
+        "label": "O",
+        "text": "arid deserts"
+      },
+      {
+        "label": "P",
+        "text": "from lush forests to"
+      },
+      {
+        "label": "Q",
+        "text": "hikers encountered diverse ecosystems"
+      },
+      {
+        "label": "R",
+        "text": "trekking through the wilderness"
+      }
+    ],
+    "options": [
+      "OPQR",
+      "RQPO",
+      "PRQO",
+      "QPOR"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 104,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the sentences in logical sequence:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "Positive thinking leads a man to success. One who thinks that he can achieve the things will put his best to achieve."
+      },
+      {
+        "label": "B",
+        "text": "Self-confidence, determination, perseverance, and hard work are the key factors of success."
+      },
+      {
+        "label": "C",
+        "text": "He will not fetter by the problems in the path of success and one day he will win positively."
+      },
+      {
+        "label": "D",
+        "text": "Every small or big, easy, or complex problem has its solution. There is a way out of every labyrinth, there is an answer to every enigma."
+      }
+    ],
+    "options": [
+      "B, C, A, D",
+      "A, C, B, D",
+      "D, C, B, A",
+      "C, D, B, A"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 105,
+    "category": "Para Jumbles",
+    "prompt": "Arrange the sentences in logical sequence:",
+    "sentences": [
+      {
+        "label": "A",
+        "text": "Ask your employer for information on the child care scheme."
+      },
+      {
+        "label": "B",
+        "text": "If the employer does not contribute to the costs, the government will do so."
+      },
+      {
+        "label": "C",
+        "text": "The employers of both parents are expected to contribute to child care."
+      },
+      {
+        "label": "D",
+        "text": "The Government policy on child care was designed as a welfare scheme for citizens."
+      }
+    ],
+    "options": [
+      "BACD",
+      "CDBA",
+      "BDAC",
+      "DCAB"
+    ],
+    "answer": 3
+  }
+]
