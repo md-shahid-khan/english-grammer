@@ -9,18 +9,17 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// ── Security headers ──
+const isProd = process.env.NODE_ENV === 'production';
+
+// In development, disable etag completely so the browser always gets the fresh file
+if (!isProd) {
+  app.disable('etag');
+}
+
+// ── Security headers (CSP disabled — app uses inline scripts & onclick handlers) ──
 app.use(
   helmet({
-    contentSecurityPolicy: {
-      directives: {
-        defaultSrc: ["'self'"],
-        styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
-        fontSrc: ["'self'", "https://fonts.gstatic.com"],
-        scriptSrc: ["'self'", "'unsafe-inline'"],   // inline scripts in index.html
-        imgSrc: ["'self'", "data:"],
-      },
-    },
+    contentSecurityPolicy: false,
   })
 );
 
@@ -31,14 +30,24 @@ app.use(compression());
 app.use(cors());
 
 // ── Request logging ──
-app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
+app.use(morgan(isProd ? 'combined' : 'dev'));
+
+// ── Disable cache in development ──
+app.use((req, res, next) => {
+  if (!isProd) {
+    res.set('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+    res.set('Pragma', 'no-cache');
+    res.set('Expires', '0');
+  }
+  next();
+});
 
 // ── Cache control for static assets ──
 app.use(
   express.static(path.join(__dirname, 'public'), {
-    maxAge: process.env.NODE_ENV === 'production' ? '1d' : 0,
-    etag: true,
-    lastModified: true,
+    maxAge: isProd ? '1d' : 0,
+    etag: isProd,
+    lastModified: isProd,
   })
 );
 

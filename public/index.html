@@ -555,6 +555,21 @@
             animation: fadeIn 0.3s ease forwards;
         }
 
+        /* ── Modal ── */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 999;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(2px);
+        }
+        .modal-overlay.active {
+            display: flex;
+        }
+
         /* Hidden */
         .hidden { display: none !important; }
     </style>
@@ -592,7 +607,7 @@
                 <div class="label">Time Limit</div>
             </div>
         </div>
-        <button class="btn btn-primary" onclick="startTest()" style="font-size:18px; padding:16px 48px;">
+        <button class="btn btn-primary" id="startBtn" onclick="startTest()" style="font-size:18px; padding:16px 48px; cursor:pointer;">
             🚀 Start Test
         </button>
     </div>
@@ -680,7 +695,7 @@
             <button class="btn btn-secondary" id="reviewPrevBtn" onclick="reviewNavigate(-1)">
                 ← Previous
             </button>
-            <button class="btn btn-secondary" onclick="showResults()">
+            <button class="btn btn-secondary" id="reviewBackBtn" onclick="showResults()">
                 📊 Back to Score
             </button>
             <button class="btn btn-primary" id="reviewNextBtn" onclick="reviewNavigate(1)">
@@ -701,14 +716,14 @@
 </div>
 
 <!-- ═════════════ CONFIRM MODAL ═════════════ -->
-<div id="confirmModal" class="hidden" style="position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:200;display:flex;align-items:center;justify-content:center;">
+<div id="confirmModal" class="modal-overlay">
     <div style="background:white;border-radius:16px;padding:32px;max-width:420px;width:90%;text-align:center;box-shadow:var(--shadow-lg);">
         <div style="font-size:48px;margin-bottom:12px;">⚠️</div>
         <h3 style="font-size:20px;margin-bottom:8px;">Submit Test?</h3>
         <p id="confirmText" style="color:var(--text-secondary);margin-bottom:24px;"></p>
         <div style="display:flex;gap:12px;justify-content:center;">
-            <button class="btn btn-secondary" onclick="closeModal()">Cancel</button>
-            <button class="btn btn-success" onclick="submitTest()">Yes, Submit</button>
+            <button class="btn btn-secondary" id="modalCancelBtn" onclick="closeModal()">Cancel</button>
+            <button class="btn btn-success" id="modalSubmitBtn" onclick="submitTest()">Yes, Submit</button>
         </div>
     </div>
 </div>
@@ -1865,12 +1880,11 @@ function confirmSubmit() {
         `You have answered ${answered} out of 100 questions.` +
         (unanswered > 0 ? ` ${unanswered} question(s) are unanswered and will be marked wrong.` : '') +
         ' Are you sure you want to submit?';
-    document.getElementById('confirmModal').classList.remove('hidden');
-    document.getElementById('confirmModal').style.display = 'flex';
+    document.getElementById('confirmModal').classList.add('active');
 }
 
 function closeModal() {
-    document.getElementById('confirmModal').classList.add('hidden');
+    document.getElementById('confirmModal').classList.remove('active');
 }
 
 function submitTest() {
@@ -2058,6 +2072,29 @@ function retakeTest() {
     renderQuestion();
     startTimer();
 }
+
+// ═══════════════════════════════════════════════════
+// EVENT LISTENERS SETUP
+// ═══════════════════════════════════════════════════
+document.addEventListener('DOMContentLoaded', () => {
+    const bind = (id, fn) => {
+        const el = document.getElementById(id);
+        if (el) el.addEventListener('click', fn);
+    };
+    bind('startBtn', startTest);
+    bind('prevBtn', () => navigate(-1));
+    bind('clearBtn', clearSelection);
+    bind('nextBtn', () => navigate(1));
+    bind('submitBtn', confirmSubmit);
+    bind('modalCancelBtn', closeModal);
+    bind('modalSubmitBtn', submitTest);
+    bind('reviewPrevBtn', () => reviewNavigate(-1));
+    bind('reviewNextBtn', () => reviewNavigate(1));
+    bind('reviewBackBtn', showResults);
+
+    const filterEl = document.getElementById('filterSelect');
+    if (filterEl) filterEl.addEventListener('change', applyFilter);
+});
 </script>
 
 </body>
