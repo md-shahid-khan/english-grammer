@@ -2072,29 +2072,6 @@ function retakeTest() {
     renderQuestion();
     startTimer();
 }
-
-// ═══════════════════════════════════════════════════
-// EVENT LISTENERS SETUP
-// ═══════════════════════════════════════════════════
-document.addEventListener('DOMContentLoaded', () => {
-    const bind = (id, fn) => {
-        const el = document.getElementById(id);
-        if (el) el.addEventListener('click', fn);
-    };
-    bind('startBtn', startTest);
-    bind('prevBtn', () => navigate(-1));
-    bind('clearBtn', clearSelection);
-    bind('nextBtn', () => navigate(1));
-    bind('submitBtn', confirmSubmit);
-    bind('modalCancelBtn', closeModal);
-    bind('modalSubmitBtn', submitTest);
-    bind('reviewPrevBtn', () => reviewNavigate(-1));
-    bind('reviewNextBtn', () => reviewNavigate(1));
-    bind('reviewBackBtn', showResults);
-
-    const filterEl = document.getElementById('filterSelect');
-    if (filterEl) filterEl.addEventListener('change', applyFilter);
-});
 </script>
 
 </body>
